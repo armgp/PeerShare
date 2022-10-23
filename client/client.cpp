@@ -13,6 +13,10 @@ unordered_map<string, string> dynamicDownloadsShaMap;
 /* main function */
 int main(int n, char *argv[])
 {
+    if(n<3){
+    	cout<<"ARGUMENTS MISSING\n";
+    	return 0;
+    }  
 
     string ip, trackerInfoDest;
     int port;
