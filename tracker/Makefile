@@ -6,7 +6,7 @@ OBJ = tracker.o utils.o server_utils.o client_utils.o
 	$(CC) $(CFLAGS) -c -o $@ $<
 
 tracker: $(OBJ)
-	$(CC) $(CFLAGS) -o $@ $^ -ljsoncpp -lcrypto
+	$(CC) $(CFLAGS) -o $@ $^ -ljsoncpp -lcrypto -lpthread
  
 clean:
 	rm -rf *o tracker
