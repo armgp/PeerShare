@@ -10,6 +10,12 @@ unordered_map <string, Group> Groups; //groupId, Group
 
 /* main function */
 int main(int n, char* argv[]){
+    
+    if(n<3){
+    	cout<<"ARGUMENTS MISSING\n";
+    	return 0;
+    }  
+    
     string trackerInfoDest = argv[1];
     trackerNo = atoi(argv[2]);
     tracker = getTrackerDetails(trackerInfoDest, trackerNo);
