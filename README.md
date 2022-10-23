@@ -19,7 +19,7 @@
     C++, Linux, Socket Programming, SHA1 hash(For verifying each chunk of a file), Multi-threading(For parallel downloads from multiple peers)
 
 ### Goal:
-	A group based file sharing system where users can share, download files from the group they belong to. Authentication
+	A group based file sharing system where users can share and download files from the group they belong to. Authentication
 	is done for the users. Download is parallel with multiple pieces from multiple peers. SHA1 hash is used to verify that 
 	each chunk is not corrupted. Two trackers are implemented for fault tolerence and load balancing.
 	Random first and rarest pieces first piece selection algorithms are implemented for downloading from peers.
