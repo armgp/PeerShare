@@ -3,6 +3,7 @@
 ### Prerequisites
 	1. g++ compiler: sudo apt-get install g++
 	2. OpenSSL Library: sudo apt-get install openssl
+	3. jsoncpp: sudo apt-get install libjsoncpp-dev
 
 ### Execution
     1. Inside client directory open terminal and run "make" command.
