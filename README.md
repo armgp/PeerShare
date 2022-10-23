@@ -1,5 +1,9 @@
 # Bittorrent-Client-Implementation
 
+### Prerequisites
+	1. g++ compiler: sudo apt-get install g++
+	2. OpenSSL Library: sudo apt-get install openssl
+
 ### Execution
     1. Inside client directory open terminal and run "make" command.
     2. Now run ./client <IP>:<PORT> tracker_info.txt to run a peer.
@@ -9,6 +13,7 @@
         4.2 ./tracker tracker_info.txt 2
     5. Use make clean to clear the .o files and the executable file.
     6. Inside the folder client infile client_functions.h set #define DESTDIR = any value for the user folder to get created at
+    7. tracker_info.txt file have the IP and Port details of all the trackers.
     
 ### Technologies Used
     C++, Linux, Socket Programming, SHA1 hash(For verifying each chunk of a file), Multi-threading(For parallel downloads from multiple peers)
