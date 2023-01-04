@@ -44,6 +44,6 @@
 		[C] [grp_id] filename D(Downloading), C(Complete)
 	14. Stop sharing: stop_share <group_id> <file_name>
 ### Screenshots:
-	![Screenshot from 2023-01-04 20-13-47](https://user-images.githubusercontent.com/49094298/210580581-361acfea-65f6-42cc-98a8-4f38ac856b8c.png)
-	![Screenshot from 2023-01-04 20-14-02](https://user-images.githubusercontent.com/49094298/210580619-934bd437-ec09-4b2f-bbc7-fee73492300b.png)
+![](images/Screenshot%20from%202023-01-04%2020-13-47.png)
+![](images/Screenshot%20from%202023-01-04%2020-14-02.png)
 
