@@ -27,19 +27,20 @@
 	
 ### Commands:
 	1. Login: login <user_id> <password>
-	2. Create Group: create_group <group_id>
-	3. Join Group: join_group <group_id>
-	4. Leave Group: leave_group <group_id>
-	5. List Pending Join: list_requests<group_id>
-	6. Accept Group Joining Request: accept_request <group_id> <user_id>
-	7. List All Group In Network: list_groups
-	8. List All sharable Files In Group: list_files <group_id>
-	9. Upload File: upload_file <file_path> <group_id>
-	10. Download File: download_file <group_id> <file_name> <destination_path>
-	11. Logout: logout
-	12. Show_downloads: show_downloads
+	2. Create User: create_user <user_id> <password>
+	3. Create Group: create_group <group_id>
+	4. Join Group: join_group <group_id>
+	5. Leave Group: leave_group <group_id>
+	6. List Pending Join: list_requests<group_id>
+	7. Accept Group Joining Request: accept_request <group_id> <user_id>
+	8. List All Group In Network: list_groups
+	9. List All sharable Files In Group: list_files <group_id>
+	10. Upload File: upload_file <file_path> <group_id>
+	11. Download File: download_file <group_id> <file_name> <destination_path>
+	12. Logout: logout
+	13. Show_downloads: show_downloads
 		Output format:
 		[D] [grp_id] filename
 		[C] [grp_id] filename D(Downloading), C(Complete)
-	13. Stop sharing: stop_share <group_id> <file_name>
+	14. Stop sharing: stop_share <group_id> <file_name>
 		
