@@ -44,6 +44,6 @@
 		[C] [grp_id] filename D(Downloading), C(Complete)
 	14. Stop sharing: stop_share <group_id> <file_name>
 ### Screenshots:
-![images/sc1.png](https://github.com/armgp/Bittorrent-Client/blob/main/images/sc1.png)
+![images/sc1.png](https://github.com/armgp/Bittorrent-Client/blob/main/images/sc1.png?raw=true)
 ![](images/sc2.png)
 
