@@ -1,4 +1,4 @@
-# Bittorrent-Client-Implementation
+# PeerShare-Implementation
 
 ### Prerequisites
 	1. g++ compiler: sudo apt-get install g++
