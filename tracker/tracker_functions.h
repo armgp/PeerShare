@@ -57,6 +57,7 @@ public:
         password = _password;
     }
 
+    // returns -1 if already in group else returns 0
     int joinGroup(string groupId)
     {
         if (joinedGroups.find(groupId) != joinedGroups.end())
@@ -65,6 +66,7 @@ public:
         return 0;
     }
 
+    // returns -1 if already admin of group -> groupId, else returns 0
     int addToAdminedGroups(string groupId)
     {
         if (adminedGroups.find(groupId) != adminedGroups.end())
